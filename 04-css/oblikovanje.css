@@ -31,3 +31,44 @@ code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
 }
+h1 {
+    color: rebeccapurple;
+    }
+
+h2 {
+    margin-top: 2em;
+    border-top: 1px;
+    color: #AAAAAA solid;
+    }
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+    }
+div {
+    font-size: 0.9em;
+    width : 40%;
+    }
+
+.slika { 
+    font-size: 0.9em;
+    width :40%;
+    float :right;
+    margin-left: 2em;;
+}
+
+.slika img { 
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    }
+
+.slika p:last-child { 
+    font-size: 0.8em;
+    margin-top: -15px;
+    }
+
+a::before {
+    content : "♤";
+    }
+
